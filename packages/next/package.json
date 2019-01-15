@@ -1,5 +1,5 @@
 {
-  "name": "sequelizejs-next",
+  "name": "sequelizejs@next",
   "version": "0.0.1-alpha.1",
   "repository": {
     "type": "git",
@@ -20,5 +20,5 @@
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0"
   },
-  "gitHead": "c74d3b050086a5becc37468e93ca2a1c2dee74c5"
+  "gitHead": "0b8523aef7fcb21e60b8a366dc7f1939911d46fd"
 }
