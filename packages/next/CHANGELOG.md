@@ -6,3 +6,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## 0.0.1-alpha.0 (2019-01-15)
 
 **Note:** Version bump only for package sequelizejs-next
+

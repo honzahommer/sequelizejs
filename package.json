@@ -1,5 +1,6 @@
 {
   "name": "sequelizejs",
+  "private": "true",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/honzahommer/sequelizejs.git"

@@ -19,5 +19,6 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0"
-  }
+  },
+  "gitHead": "c74d3b050086a5becc37468e93ca2a1c2dee74c5"
 }
