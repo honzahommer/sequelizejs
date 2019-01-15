@@ -1,0 +1,23 @@
+{
+  "name": "sequelizejs-next",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honzahommer/sequelizejs.git"
+  },
+  "main": "lib/",
+  "scripts": {
+    "test": "mocha --opts ../../mocha.opts"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "sequelize": "next"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  }
+}

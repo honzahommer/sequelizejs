@@ -1,0 +1,33 @@
+{
+  "name": "sequelizejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honzahommer/sequelizejs.git"
+  },
+  "author": {
+    "name": "Honza Hommer",
+    "email": "honza@hommer.cz",
+    "url": "https://hommer.cz"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "install": "lerna bootstrap",
+    "publish": "lerna publish",
+    "lint": "semistandard \"packages/**/lib/**/*.js\" \"packages/**/test/**/*.js\" --fix",
+    "test": "npm run lint && nyc lerna run test"
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "lerna": "^3.10.5",
+    "nyc": "^13.1.0",
+    "semistandard": "^13.0.1"
+  }
+}
