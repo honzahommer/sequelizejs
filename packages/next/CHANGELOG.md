@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/honzahommer/sequelizejs/compare/@sequelizejs/next@0.0.1-alpha.2...@sequelizejs/next@1.0.0) (2019-01-15)
+
+**Note:** Version bump only for package @sequelizejs/next
+
+
+
+
+
 ## 0.0.1-alpha.2 (2019-01-15)
 
 **Note:** Version bump only for package @sequelizejs/next
