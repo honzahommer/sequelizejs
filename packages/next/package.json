@@ -26,5 +26,16 @@
   },
   "homepage": "https://github.com/honzahommer/sequelizejs#readme",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "sqlite",
+    "postgresql",
+    "postgres",
+    "mssql",
+    "orm",
+    "nodejs",
+    "object relational mapper"
+  ]
 }

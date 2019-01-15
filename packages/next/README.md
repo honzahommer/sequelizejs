@@ -7,5 +7,3 @@ npm install @sequelizejs/next sequelize
 const sequelizeNext = require('@sequelizejs/next');
 const sequelize = require('sequelize');
 ```
-
-@TODO
