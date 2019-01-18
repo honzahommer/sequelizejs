@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/honzahommer/sequelizejs#readme",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "mysql",
     "mariadb",
