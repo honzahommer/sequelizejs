@@ -1,0 +1,41 @@
+{
+  "name": "@sequelizejs/prev",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honzahommer/sequelizejs.git"
+  },
+  "main": "lib/",
+  "scripts": {
+    "test": "mocha --opts ../../mocha.opts"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "sequelize": "^3.34.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  },
+  "description": "> For those, who needs two different versions of Sequelize installed in one project (eg. for tests).",
+  "bugs": {
+    "url": "https://github.com/honzahommer/sequelizejs/issues"
+  },
+  "homepage": "https://github.com/honzahommer/sequelizejs#readme",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "sqlite",
+    "postgresql",
+    "postgres",
+    "mssql",
+    "orm",
+    "nodejs",
+    "object relational mapper"
+  ]
+}

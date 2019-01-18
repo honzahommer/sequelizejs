@@ -4,3 +4,4 @@
 [![devDependency Status](https://david-dm.org/honzahommer/sequelizejs?type=dev)](https://david-dm.org/honzahommer/sequelizejs?type=dev)
 
 - [@sequelizejs/next](https://github.com/honzahommer/sequelizejs/tree/master/packages/next)
+- [@sequelizejs/prev](https://github.com/honzahommer/sequelizejs/tree/master/packages/prev)
