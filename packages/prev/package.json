@@ -1,6 +1,6 @@
 {
   "name": "@sequelizejs/prev",
-  "version": "1.0.0",
+  "version": "3.34.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/honzahommer/sequelizejs.git"
