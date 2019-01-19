@@ -1,5 +1,6 @@
 {
   "name": "sequelizejs",
+  "private": "true",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/honzahommer/sequelizejs.git"
@@ -19,6 +20,11 @@
     "lint": "semistandard \"packages/**/lib/**/*.js\" \"packages/**/test/**/*.js\" --fix",
     "test": "npm run lint && nyc lerna run test"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
   "semistandard": {
     "env": [
       "mocha"
@@ -26,7 +32,8 @@
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "lerna": "^3.10.5",
+    "husky": "^1.3.1",
+    "lerna": "^3.10.6",
     "nyc": "^13.1.0",
     "semistandard": "^13.0.1"
   }

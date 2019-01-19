@@ -1,5 +1,5 @@
 {
-  "name": "@sequelizejs/next",
+  "name": "@sequelizejs/prev",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "test": "test"
   },
   "dependencies": {
-    "sequelize": "5.0.0-beta.16"
+    "sequelize": "3.34.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
