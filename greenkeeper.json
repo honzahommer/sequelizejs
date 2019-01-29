@@ -3,7 +3,8 @@
     "default": {
       "packages": [
         "package.json"
-      ]
+      ],
+      "ignore": ["sequelize"]
     }
   }
 }
