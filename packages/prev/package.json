@@ -14,7 +14,7 @@
     "test": "test"
   },
   "dependencies": {
-    "sequelize": "^3.34.0"
+    "sequelize": "^4.42.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
