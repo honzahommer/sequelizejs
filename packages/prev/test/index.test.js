@@ -1,15 +1,13 @@
-const expect = require('expect.js');
+const { expect } = require('chai');
+const connection = require('../../../test/connection');
+const Sequelize = require('../lib');
 
-describe('@sequelize/prev', function () {
-  before(function () {
-    this.lib = require('../lib');
+describe('@sequelize/prev', () => {
+  it('returns Sequelize instance', () => {
+    expect(connection({ Sequelize })).to.be.an.instanceof(Sequelize);
   });
 
-  it('returns the package', function () {
-    expect(this.lib).to.be.ok();
-  });
-
-  it('returns the correct version', function () {
-    expect(parseInt(this.lib.version.split('.').shift())).to.be(3);
+  it('returns the correct version', () => {
+    expect(parseInt(Sequelize.version)).to.equal(3);
   });
 });
