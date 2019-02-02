@@ -5,4 +5,5 @@
 
 - [@sequelizejs/next](https://github.com/honzahommer/sequelizejs/tree/master/packages/next)
 - [@sequelizejs/prev](https://github.com/honzahommer/sequelizejs/tree/master/packages/prev)
+- [@sequelizejs/sequelize](https://github.com/honzahommer/sequelizejs/tree/master/packages/sequelize)
 
