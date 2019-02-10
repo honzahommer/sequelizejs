@@ -14,7 +14,7 @@
     "test": "test"
   },
   "dependencies": {
-    "sequelize": "5.0.0-beta.16"
+    "sequelize": "^5.0.0-beta.16"
   },
   "devDependencies": {
     "chai": "^4.2.0",
