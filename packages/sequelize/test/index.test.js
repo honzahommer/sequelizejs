@@ -29,4 +29,18 @@ describe('@sequelize/sequelize', () => {
       });
     });
   });
+
+  describe('handle mycnf', () => {
+    describe('sqlite', () => {
+      it('username = undefined', () => {
+        expect(connection({ Sequelize }).options.username).to.equal(undefined);
+      });
+    });
+
+    describe('mysql', () => {
+      it('username = root', () => {
+        expect(connection.mysql({ Sequelize }).options.username).to.equal('root');
+      });
+    });
+  });
 });

@@ -19,6 +19,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "mysql2": "^1.6.5",
     "sequelize": "^4.42.0",
     "sqlite": "^3.0.1"
   },
@@ -40,5 +41,8 @@
     "nodejs",
     "object relational mapper"
   ],
-  "gitHead": "e033d9557d504db75cea398e7741c951222f8906"
+  "gitHead": "e033d9557d504db75cea398e7741c951222f8906",
+  "dependencies": {
+    "mycnf": "^1.0.3"
+  }
 }
