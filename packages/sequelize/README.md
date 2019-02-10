@@ -10,5 +10,11 @@
 ```
 npm install @sequelizejs/sequelize
 ...
-const sequelize = require('@sequelizejs/sequelize');
+const Sequelize = require('@sequelizejs/sequelize');
+const sequelize = new Sequelize(...);
 ```
+
+## Features
+
+* Set operatorsAliases to false (v4) or remove operatorsAliases option (v5) to hide [warning](https://github.com/sequelize/sequelize/blob/v4/lib/sequelize.js#L242).
+* Use [mycnf](https://npmjs.com/mycnf) package to setup MySQL connection.
