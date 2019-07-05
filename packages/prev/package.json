@@ -7,14 +7,17 @@
   },
   "main": "lib/",
   "scripts": {
-    "test": "mocha --opts ../../mocha.opts"
+    "test": "mocha --opts ../../mocha.opts",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "dependencies": {
-    "sequelize": "3.34.0"
+    "sequelize": "3.34.0",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -38,5 +41,6 @@
     "orm",
     "nodejs",
     "object relational mapper"
-  ]
+  ],
+  "snyk": true
 }
